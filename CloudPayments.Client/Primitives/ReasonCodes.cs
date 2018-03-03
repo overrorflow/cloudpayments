@@ -6,6 +6,7 @@ namespace CloudPayments.Client
     {
         Approved = 0,
         ReferToCardIssuer = 5001,
+        PickUpCard = 5004,
         DoNotHonor = 5005,
         Error = 5006,
         InvalidTransaction = 5012,
